@@ -1,0 +1,14 @@
+#Constellation.Constellation-shortened-collection-names .Constellation_row:not(.Constellation_tool) strong {
+  font-size: x-small;
+  max-width: 92%;
+  overflow: hidden;
+  display: block;
+}
+
+#Constellation.Constellation-shortened-collection-names .Constellation_row:not(.Constellation_tool) {
+  padding: 0px 3px;	
+}
+
+#Constellation.Constellation-shortened-collection-names {
+  max-width: 170px;	
+}
