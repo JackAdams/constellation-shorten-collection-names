@@ -1,6 +1,6 @@
 Package.describe({
   name: 'constellation:shorten-collection-names',
-  version: '0.3.1',
+  version: '0.3.2',
   summary: 'Makes long collection names visible in Constellation',
   git: 'https://github.com/JackAdams/constellation-shorten-collection-names.git',
   documentation: 'README.md',
