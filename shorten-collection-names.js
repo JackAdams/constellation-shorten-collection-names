@@ -2,7 +2,7 @@
 
 var Constellation = Package["constellation:console"].API;
 
-var initialValue = JSON.parse(localStorage.constellation_shortened_collection_names);
+var initialValue = JSON.parse(localStorage.constellation_shortened_collection_names || 'false');
 
 Constellation.addTab({
   name: 'Shorten names',
