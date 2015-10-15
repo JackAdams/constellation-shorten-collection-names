@@ -1,6 +1,6 @@
 Package.describe({
   name: 'constellation:shorten-collection-names',
-  version: '0.3.4',
+  version: '0.3.5',
   summary: 'Makes long collection names visible in Constellation',
   git: 'https://github.com/JackAdams/constellation-shorten-collection-names.git',
   documentation: 'README.md',
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1');
 
   api.use(['templating','reactive-dict','tracker'], 'client');
-  api.use('constellation:console@1.2.2', 'client');
+  api.use('constellation:console@1.2.3', 'client');
 
   api.addFiles('shorten-collection-names.css','client');
   api.addFiles('shorten-collection-names.html','client');
